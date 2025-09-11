@@ -1,0 +1,67 @@
+/* Zeerodha Home Web Page */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {  
+    height: 35px;
+    box-shadow: 2px 1px 2px  #eee;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 4rem 2rem 4rem; 
+}
+
+.left-side a {
+    margin-right: 20px;
+}
+
+.navbar img {
+    width: 150px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.stats-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8rem;
+}
+
+.stats-img img {
+    width: 700px;
+}
+
+.stat-info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.stat-info h1 {
+    font-size: 40px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.stat-info p {
+    font-size: 20px;
+    margin-top: 5pxpx;
+    margin-bottom: 2rem;
+}
+
+.stat-info button {
+    padding: 8px 20px 8px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: aliceblue;
+    background-color: #387ed1;
+    border: none;
+    border-radius: 5px;
+}
